@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"rel="stylesheet"/>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="../img/logo.png" alt="logo de la tienda">
+      </a>
+    </header>
+    <nav class="nav">
+      <a class="nav__a nav__a--active"  href="../index.html">Tienda</a >
+      <a class="nav__a" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="cont">
+      <h1>React JS</h1>
+      <div class="tshirt">
+        <img class="tshirt__img" src="../img/3.jpg" alt="imagen camisa">
+        <div class="tshirt__cont">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis velit vulputate, mollis ipsum et, dapibus nisl. Donec eros elit, iaculis at malesuada rutrum, accumsan molestie enim. Integer in eros risus. Nunc faucibus vitae nibh eu sagittis. Cras nisi ex, tempus ac nulla eget, luctus elementum metus. Phasellus quis sodales turpis. Morbi tincidunt semper velit, et pretium eros sollicitudin quis.</p>
+
+            <form class="form" action="">
+                <select class="form__field" name="" id="">
+                    <option disabled selected>>-Seleccionar Talla-<</option> <!--Disable lo desabilita y select lo pone como seleccionado por default-->
+                    <option value="">Chica</option>
+                    <option value="">Mediana</option>
+                    <option value="">Grande</option>
+                </select>
+                <input class="form__field type="number" placeholder="Cantidad" min="1">
+                <input class="form__submit" type="submit" value="Agregar al Carrito">
+            </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__txt">Front-End Store - Todos los derechos reservados 2024.</p>
+    </footer>
+  </body>
+</html>
